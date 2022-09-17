@@ -1,0 +1,336 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html {
+  scroll-behavior: smooth
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+  background-image: url('https://img.freepik.com/free-vector/neon-abstract-border-squared-dark-purple_53876-100387.jpg?w=2000');
+  background-size: cover;
+  background-repeat: no-repeat;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar { /* Chrome, Safari, Opera */
+  display: none;
+}
+span{
+	color: #f9004d;
+}
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  text-align: center;
+ 
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/*============= Header ===============*/
+#navbar {
+    width: 100%;
+    background-color: #be3144;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #000;
+    z-index: 5;
+}
+
+.nav-content {
+    display: flex;
+    width: 100%;
+  align-items: center;
+}
+
+.nav-content .logo{
+    display: flex;
+    width: 5%;
+  height: 6%;
+}
+  
+.nav-content .logo img{
+    width: 100%;
+  
+  
+}
+
+.nav-content ul{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0;
+    list-style: none;
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-content ul li{
+    display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-content ul li:last-child{
+  margin-right: 0;
+}
+
+.nav-content ul li a{
+    text-decoration: none;
+  color: #ffffff;
+  transition: all .4s ease-in-out;
+}
+
+.nav-content ul li a:hover {
+  color: #000;
+}
+
+/*============= Welcoming ===============*/
+#welcome-section{
+    width: 100%;
+    margin-top: 30px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+   color: #ffffff;
+   transition: all .2s ease-in-out;
+}
+
+#welcome-section:hover{
+  transform: scale(1.03);
+}
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #ffffff;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 450px;
+  font-size: 20px;
+ 
+}
+
+button{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+/*============= projects ===============*/
+#projects {
+   background-color: #fff;
+  padding: 20px 0;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+}
+
+#projects .project-tile {
+  padding-bottom: 30px;
+  padding-top: 70px;
+  color:red;
+}
+
+#projects .cards {
+  display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+#projects .cards .card{
+  display: block;
+  width: 100%;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+#projects .card:hover{
+  transform: rotate3d(0, 1, .5, 1turn);
+    position: relative;
+    z-index: 10;
+}
+
+#projects .cards .card img{
+  width: 100%;
+  max-height: 300px;
+  height: 100%;
+  border-radius: 4px;
+}
+
+#projects .cards .card figcaption{
+     position: absolute;
+    z-index: 2;
+    color: #fff;
+    font-size: 20px;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(0,0,0,.8);
+}
+
+/*============= Contact ===============*/
+
+.projec-tile h2{
+  text-align:center;
+}
+#contact {
+  color: #fff;
+  display: flex;
+  min-height: 30vh;
+  align-items: center;
+  text-align: center;
+  transition: all .5s ease-in-out;
+}
+
+#contact:hover{
+  transform: scale(1.0);
+}
+
+#contact h2{
+ margin-bottom: 0
+}
+
+
+#contact ul{
+    padding: 0;
+    font-size: 30px;
+    list-style: none;
+    width: 100%;
+}
+
+#contact ul li{
+  display: inline-block;
+  margin-right: 40px;
+  margin-bottom: 15px;
+  transition: all .5s ease-in-out;
+}
+
+#contact ul li:last-child{
+  margin-right: 0;
+}
+
+#contact ul li:hover{
+  transform: scale(1.5) rotate(-15deg);
+}
+
+#contact ul li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*============= Footer ===============*/
+footer {
+  width: 100%;
+  background-color: #fff;
+  border-top: 2px solid #be3144;
+    
+}
+
+footer .footer-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ min-height: 10%;
+}
+
+footer .footer-content .logo{
+  min-width: 80px;
+  margin-right: 20px;
+  display: flex;
+  width: 5%;
+  
+}
+
+footer .footer-content .logo img{
+  width: 100%;
+}
+
+/*============= Media query ===============*/
+@media(min-width: 400px){
+  .nav-content .logo{
+    width: 10%;
+  }
+}
+
+@media (min-width: 600px){
+  .nav-content ul {
+    font-size: 24px;
+  }
+  
+  .nav-content ul li a{
+      padding: 46px;
+  }
+  
+  .nav-content ul li a:hover {
+    background-color: #000;
+    color: #be3144;
+  }
+  
+  #projects .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+@media (min-width: 900px){
+  #projects .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+
+
+
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+
