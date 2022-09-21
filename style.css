@@ -115,9 +115,7 @@ h1, h2, h3 {
   
 }
 
-#welcome-section:hover{
-  transform: scale(1.03);
-}
+
 .about{
 	width: 100%;
 	padding: 100px 0px;
