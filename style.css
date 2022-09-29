@@ -259,11 +259,11 @@ button:hover {
 }
 
 .carousel-button.prev {
-  left: 1rem;
+  left: 10rem;
 }
 
 .carousel-button.next {
-  right: 1rem;
+  right: 10rem;
 }
 
 /*============= projects ===============*/
@@ -333,8 +333,8 @@ button:hover {
   padding: 10px;
   margin: 10px;
   text-align: center;
-  background-color: rgb(204, 74, 193);
   border-radius: 10px;
+  background-image: linear-gradient(rgb(75, 32, 206), rgb(171, 29, 128));
 
 }
 
@@ -345,7 +345,7 @@ button:hover {
 .shopping ul li,
 span {
   font-size: xx-large;
-  color: #000;
+  color: black;
 }
 
 .comments input[type="text"],
@@ -485,6 +485,13 @@ footer .footer-content .logo img {
     transition: 0.3s;
     box-shadow:
       0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+  .carousel-button.prev {
+    left: 1rem;
+  }
+  
+  .carousel-button.next {
+    right: 1rem;
   }
 
   .main {
