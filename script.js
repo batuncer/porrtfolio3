@@ -1,4 +1,8 @@
 const buttons = document.querySelectorAll("[data-carousel-button]")
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+const navLink = document.querySelectorAll(".nav-link");
+
 
 buttons.forEach(button => {
   button.addEventListener("click", () => {
@@ -17,33 +21,88 @@ buttons.forEach(button => {
   })
 })
 
-var sheep_count, other_count;
 
-function getNumberOrString(value) {
-  // Convert a string value to a number if possible
-  let number_value = Number(value);
-  if (Number.isNaN(number_value)) {
-    return value
-  } else {
-    return number_value
-  }
+
+
+
+hamburger.addEventListener("click", mobileMenu);
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function mobileMenu() {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
 }
 
+function closeMenu() {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+}
+/*comment function*/
+document.querySelector('#addComment').addEventListener('click', function () {
 
-sheep_count = 0;
+  const data = {
+    "name": document.querySelector('#name').value,
+    "date": document.querySelector('#date').value,
+    "body": document.querySelector('#bodyText').value,
 
-other_count = 0;
+  };
+  console.log(data)
+  render(data)
+
+})
+products = [];
+
+const basketElems = document.querySelectorAll('.addBasket');
+for (let index = 0; index < basketElems.length; index++) {
+  const element = basketElems[index];
+  element.addEventListener('click', function () {
+
+    const name = this.getAttribute("data-name")
+    const price = this.getAttribute("data-price")
+
+    const data = {
+      "name": name,
+      "price": price,
+    }
+    products.push(data);
+    console.log(price);
+    addBaskets(products);
 
 
-document.getElementById('button').addEventListener('click', (event) => {
-  if (getNumberOrString(document.getElementById('text').value) == 'good') {
-    let element_sheep_count = document.getElementById('good_count');
-    element_sheep_count.innerText = sheep_count;
-    sheep_count = (typeof sheep_count === 'number' ? sheep_count : 0) + 1;
-  } else {
-    let element_other_count = document.getElementById('bad_count');
-    element_other_count.innerText = other_count;
-    other_count = (typeof other_count === 'number' ? other_count : 0) + 1;
+
+  })
+
+}
+
+function render(data) {
+  if (document.querySelector(".notyet")) {
+    document.querySelector(".notyet").remove()
+  };
+  const html = "<div class='commentBox'><div class'leftPanelImg'> </div><div class='rightPanel'><span>" + data.name + "</span><div class='date'>" + data.date + "</div><p>" + data.body + "</p></div><div class='clear'></div></div>";
+  //$('#comment_container')
+  document.querySelector("#comment_container").innerHTML += html
+
+  //.append(html);
+}
+
+function addBaskets(datas) {
+  document.querySelector("#list").innerHTML = ""
+  let html = ""
+  let total = 0;
+  for (let index = 0; index < datas.length; index++) {
+    const data = datas[index];
+    html += "<li><span>" + data.name + " " + "<span></span>" + data.price + "</span><button class='delete' onClick='deleteProduct(" + index + ")'>X</button></li>";
+    total += parseInt(datas[index]["price"]);
   }
+  const delivery = 3.50;
+  const grandTotal = total + delivery;
+  document.querySelector('#subtotal').innerText = total;
+  document.querySelector('#total').innerText = grandTotal;
+  document.querySelector('#delivery').innerText = delivery;
+  document.querySelector("#list").innerHTML += html
+}
 
-});
+function deleteProduct(index) {
+  products.splice(index, 1)
+  addBaskets(products)
+}
