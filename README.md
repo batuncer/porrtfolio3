@@ -1,5 +1,5 @@
-# Personal Home Page  Template
-
+# Personal Home Page 
+![Website link](https://imgur.com/a/zMoJioA)https://app.netlify.com/sites/legendary-kitten-03e03e/overview)
 
 **Content:**
 <br>
@@ -19,9 +19,6 @@
 ###### 1.          
 # HTML, CSS , JAVASCRIPT , CSS BOOTSRAP , Github, git, Hamburger style
 <br>
-<br>
-<br>
-<br> 
 
 #### 2.
 # My goals
