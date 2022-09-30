@@ -2,7 +2,7 @@
 <br>
 (https://app.netlify.com/sites/legendary-kitten-03e03e/overview)
 <br>
-### **Content:**
+### Content:
 
 [1. Languages, Libaries , Style and Technologies](#1)
 
