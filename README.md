@@ -50,7 +50,7 @@
 -User Input
 <br>
 
-#### 6. 
+#### 5. 
 #### What my challenges were
 - Styling.
 - Js codes
