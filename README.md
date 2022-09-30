@@ -6,6 +6,7 @@
 ### Content:
 
 <br>
+
 [1. Languages, Libaries , Style and Technologies](#1)
 
 [2. My goals](#2)
@@ -52,10 +53,11 @@
 
 #### 5. 
 #### What my challenges were
-- Styling.
 - Js codes
 - Js errors (shopping list)
+- Styling
 - My laptop (got too slow :))
+
 <br>
 
 #### future ideas:
