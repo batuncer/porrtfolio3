@@ -3,19 +3,19 @@
 (https://app.netlify.com/sites/legendary-kitten-03e03e/overview)
 <br>
 **Content:**
-<br>
+
 [1. Languages, Libaries , Style and Technologies](#1)
-<br>
+
 [2. My goals](#2)
-<br>
+
 [3. User stories](#3)
-<br>
+
 [4. Used Blocks](#4)
-<br>
+
 [5. What my challenges were](#5)
-<br>
+
 [6. What I learned](#6)
-<br>
+
 
 #### 1.          
 #  Languages, Libaries , Style and Technologies
@@ -70,7 +70,7 @@
 - Comminication and helping people
 <b>
 <b>
--Shopping List, commenting section, carousel image and hamburger list  (https://imgur.com/a/zMoJioA)
+![Shopping List, commenting section, carousel image and hamburger list](https://imgur.com/a/zMoJioA)
   
 #  [↑ top](#readme)
   
