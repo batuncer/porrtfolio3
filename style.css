@@ -172,6 +172,7 @@ button {
   padding: 13px 30px;
   border-radius: 30px;
   transition: .4s;
+  width: fit-content;
 }
 
 button:hover {
@@ -539,27 +540,3 @@ footer .footer-content .logo img {
   }
 }
 
-
-
-/* don't edit this */
-.jest-lite-report__status--pass {
-  background: var(--color-pass);
-}
-
-.jest-lite-report__errors {
-  display: none
-}
-
-
-
-
-
-
-/* don't edit this */
-.jest-lite-report__status--pass {
-  background: var(--color-pass);
-}
-
-.jest-lite-report__errors {
-  display: none
-}

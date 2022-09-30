@@ -2,6 +2,7 @@
 
 
 **Content:**
+<br>
 [1. Languages, Libaries , Style and Technologies](#1)
 <br>
 [2. My goals](#2)
@@ -70,6 +71,7 @@
 - Comminication and helping people
 <b>
 <b>
+  ![Shpping List, commenting section, carousel image and hamburger list](https://imgur.com/a/zMoJioA)
   
 #  [↑ top](#readme)
   

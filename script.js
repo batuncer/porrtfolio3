@@ -79,10 +79,9 @@ function render(data) {
     document.querySelector(".notyet").remove()
   };
   const html = "<div class='commentBox'><div class'leftPanelImg'> </div><div class='rightPanel'><span>" + data.name + "</span><div class='date'>" + data.date + "</div><p>" + data.body + "</p></div><div class='clear'></div></div>";
-  //$('#comment_container')
   document.querySelector("#comment_container").innerHTML += html
 
-  //.append(html);
+  
 }
 
 function addBaskets(datas) {
