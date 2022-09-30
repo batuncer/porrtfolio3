@@ -18,7 +18,7 @@
 
 
 #### 1.          
-#  Languages, Libaries , Style and Technologies
+####  Languages, Libaries , Style and Technologies
 - HTML, CSS , JAVASCRIPT , CSS BOOTSRAP , Github, git, Hamburger style
 <br>
 
@@ -36,11 +36,10 @@
 - As a user: Users can say their opinions or anything they want to share with date(optinonal). 
 #### Shopping List
 - As a user: People can see all my works and they can add any of them with one button (add basket) to shopping list. Also they can see total price in their basket (shopping list).
-
 <br>
 
 #### 4.
-### Used blocks 
+#### Used blocks 
 <br>
 - Corousel Image
 <br>
@@ -50,7 +49,7 @@
 <br>
 
 #### 6. 
-### What my challenges were
+#### What my challenges were
 - Styling & html added.
 - Js codes
 - Js errors (shopping list)
@@ -62,7 +61,7 @@
 - Additional styling and new features!
 
 #### 6.
-# What I learned
+#### What I learned
 - How to write codes with javascript
 - Debug
 - CSS style (responsiveness)
