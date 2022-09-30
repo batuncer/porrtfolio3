@@ -23,7 +23,7 @@
 <br>
 
 #### 2.
-# My goals
+#### My goals
 - By making a portfolio website, I wanted to create a platform where users can write to their feedback and information. I wanted them to be able to purchase my works as a  draft and make the payment process. While I am doing those, I took care to make a design that is pleasing to the eyes of the users. Using Hamburger stylE , I wanted users to take a look everyting easily
 
 #### 3.
