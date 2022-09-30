@@ -1,7 +1,7 @@
 # Personal Home Page 
 <br>
 (https://app.netlify.com/sites/legendary-kitten-03e03e/overview)
-
+<br>
 **Content:**
 <br>
 [1. Languages, Libaries , Style and Technologies](#1)
@@ -18,7 +18,8 @@
 <br>
 
 ###### 1.          
-# HTML, CSS , JAVASCRIPT , CSS BOOTSRAP , Github, git, Hamburger style
+#  Languages, Libaries , Style and Technologies
+- HTML, CSS , JAVASCRIPT , CSS BOOTSRAP , Github, git, Hamburger style
 <br>
 
 #### 2.
