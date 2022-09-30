@@ -2,7 +2,7 @@
 <br>
 (https://app.netlify.com/sites/legendary-kitten-03e03e/overview)
 <br>
-**Content:**
+### **Content:**
 
 [1. Languages, Libaries , Style and Technologies](#1)
 
@@ -50,10 +50,10 @@
 
 #### 6. 
 #### What my challenges were
-- Styling & html added.
+- Styling.
 - Js codes
 - Js errors (shopping list)
-- My laptop got too slow :))
+- My laptop (got too slow :))
 <br>
 
 #### future ideas:
