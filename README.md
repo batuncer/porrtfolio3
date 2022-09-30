@@ -70,7 +70,7 @@
 - Comminication and helping people
 <b>
 <b>
-![Shopping List, commenting section, carousel image and hamburger list](https://imgur.com/a/zMoJioA)
+
   
 #  [↑ top](#readme)
   
