@@ -17,7 +17,7 @@
 [6. What I learned](#6)
 <br>
 
-###### 1.          
+#### 1.          
 #  Languages, Libaries , Style and Technologies
 - HTML, CSS , JAVASCRIPT , CSS BOOTSRAP , Github, git, Hamburger style
 <br>
@@ -30,11 +30,11 @@
 ### User Stories:
 <br>
 
-##### Image corousel
+#### Image corousel
 - As a user: User can see all the images with left and right slide button. So Users can easly look images at the same place.
-##### Comentting section (feedback)
+#### Comentting section (feedback)
 - As a user: Users can say their opinions or anything they want to share with date(optinonal). 
-##### Shopping List
+#### Shopping List
 - As a user: People can see all my works and they can add any of them with one button (add basket) to shopping list. Also they can see total price in their basket (shopping list).
 
 <br>
