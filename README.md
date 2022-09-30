@@ -1,12 +1,17 @@
 # Personal Home Page  Template
 
-### _README_  
+
 **Content:**
 [1. Languages, Libaries , Style and Technologies](#1)
+<br>
 [2. My goals](#2)
+<br>
 [3. User stories](#3)
+<br>
 [4. Used Blocks](#4)
+<br>
 [5. What my challenges were](#5)
+<br>
 [6. What I learned](#6)
 <br>
 
