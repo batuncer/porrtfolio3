@@ -46,9 +46,9 @@
 <br>
 - Corousel Image
 <br>
-- Adding, removing summing elements
+- Shopping List
 <br>
--User Input
+- User Input (comments)
 <br>
 
 #### 5. 
