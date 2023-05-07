@@ -70,7 +70,7 @@
 - Debug
 - CSS style (responsiveness)
 - using git/github effectively
-- Comminication and helping people
+- Comminication and helping people effective
 <b>
 <b>
 
